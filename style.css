@@ -5,7 +5,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
+  background-color:  #1a86ea;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -25,7 +25,8 @@ body {
 
 .topmenu:hover {
   color: white;
-  /* Add the styles here */
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 .topdiv {
@@ -36,7 +37,7 @@ body {
 .profile_name {
   float: left;
   padding-left: 2cm;
-  /* Add the styles here */
+  font-size: 30px;
 }
 
 .profile_name .contact_info {
@@ -60,7 +61,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #1a86ea;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -94,7 +95,7 @@ h2 {
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #7600bc;
+  color: #1a86ea;
 }
 
 #about-me p {
@@ -104,10 +105,11 @@ h2 {
 }
 
 .profile_image {
-  width: 550px;
+  width: 300px;
   height: fit-content;
   vertical-align: middle;
-  margin: 5px;
+  margin: 25px;
+  border-radius: 15px;
 }
 
 /* Skills */
@@ -131,13 +133,13 @@ h2 {
 }
 
 .skill img {
-  height: 35px;
+  height: 50px;
   align-items: center;
 }
 
 .skills h6 {
   align-items: center;
-  font-size: 20px;
+  font-size: 25px;
   margin-block-start: 8px;
   margin-block-end: 5px;
   font-weight: bold;
@@ -190,6 +192,7 @@ h2 {
 .all_recommendations {
   display: flex;
   align-items: center;
+  justify-content:flex-start;  
   margin-left: 1in;
   flex-direction: row;
   flex-flow: wrap;
@@ -208,11 +211,11 @@ h2 {
   margin: 10px;
   border:1px solid gray;
   font-size: 18px;
-  height:150px
+  height:150px;
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #1a86ea;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -223,7 +226,7 @@ h2 {
   width: 48px;
   height: 48px;
   border-radius: 100%;
-  background-color: #7600bc;
+  background-color: #1a86ea;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -237,7 +240,7 @@ h2 {
 
 .popup {
   width:400px;
-  background-color: #e8bcf0;
+  background-color: #73bbff;
   border-radius: 3mm;
   top: 50%;
   left:50%;
@@ -254,8 +257,8 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #1a86ea;
+  color: #1a86ea;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -268,8 +271,8 @@ h2 {
 
 .popup button:hover {
   background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  border: 2px solid #1a86ea;
+  color: #1a86ea;
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -300,8 +303,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #1a86ea;
+  color: #1a86ea;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -312,8 +315,8 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #1a86ea;
+  border: 1px solid #1a86ea;
   color: #fff;
   display: block;
   border-radius: 6px;
